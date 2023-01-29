@@ -1,4 +1,4 @@
-﻿int Digit(int n)
+﻿int sumDigit(int n)
 {
     n = Math.Abs(n);
     int sum = 0;
@@ -15,7 +15,7 @@ Console.WriteLine("Введите число n: ");
 int.TryParse(Console.ReadLine(), out int n);
 
 
-int sum = Digit(n);
+int sum = sumDigit(n);
 Console.WriteLine($"Результат: {sum}");
 
 
